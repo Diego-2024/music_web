@@ -1,0 +1,16 @@
+.container{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    /*水平居中,让盒子水平左移动一半的宽度*/
+    /* 同时设置即水平垂直居中
+    *top:50%;
+	*margin-top:-100px;
+    */
+}
+.form-text{
+    font-size:20px;
+    color:red;
+}

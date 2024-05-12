@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="http://www.baidu.com">
+			<table align="center" border="2px" bgcolor="aqua" width="500px">
+				<tr height="50px">
+					<td>用户名</td>
+					<td width="300px">
+						<!--文本输入框-->
+						<input type="text" placeholder="请输入用户名/手机号" />
+					</td>
+				</tr>
+				<!--第二行-->
+				<tr height="50px">
+					<td>请输入密码：</td>
+					<td>
+						<input type="password" placeholder="请输入密码" />
+					</td>
+				</tr>
+				<!--第三行-->
+				<tr height="50px">
+					<td>请确认密码</td>
+					<td>
+						<input type="password" placeholder="请确认密码" />
+					</td>
+				</tr>
+				<!--第四行-->
+				<tr height="50px">
+					<td>性别</td>
+					<td>
+						<input type="radio" name="sex"/>男
+						<input type="radio" name="sex"/>女
+						<input type="radio" name="sex"/>不确定
+					</td>
+				</tr>
+				<!--第五行-->
+				<tr height="50px">
+					<td>出生年月</td>
+					<td>
+						<!--下拉框-->
+						<select>
+							<option>--请选择--</option>
+							<option>--1998--</option>
+							<option>--1999--</option>
+						</select>
+						<select>
+							<option>--请选择--</option>
+							<option>--5月--</option>
+							<option>--6月--</option>
+							<option>--7月--</option>
+						</select>
+					</td>
+				</tr>
+				<!--第六行-->
+				<tr height="50px">
+					<td>兴趣爱好</td>
+					<td>
+						<input type="checkbox" />敲代码
+						<input type="checkbox" />打游戏
+						<input type="checkbox" />看电影
+						<input type="checkbox" />听音乐
+					</td>
+				</tr>
+				<!--第七行-->
+				<tr height="50px">
+					<td>个人介绍</td>
+					<td>
+						<!--单行时，cols会给滑块留一个位置-->
+						<textarea cols="40" rows="5"></textarea>
+					</td>
+				</tr>
+				<!--第八行-->
+				<tr height="50px">
+					<td colspan="2" align="center">
+						<input type="submit" value="提交" />
+						<input type="reset" value="重置" />
+					</td>
+				</tr>
+			</table>
+		</form>
+
+</body>
+</html>

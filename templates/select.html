@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择你要的歌曲</title>
+</head>
+
+
+<body>
+
+    <div style="text-align:center;">
+        <p>任选一种方式即可(支持模糊查询)</p>
+        <form action="http://127.0.0.1:5000/select" method="post">
+            <p style="text-align:center;">请输入你要搜索的歌曲</p>
+          <input name="song" type="text"  size="12" value="">
+            <button type="submit">搜索</button>
+            <p style="text-align:center;">请输入你要搜索的歌手</p>
+          <input name="singer" type="text"  size="12" value="">
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+</body>
+</html>
+
+

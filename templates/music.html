@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+     <link rel="stylesheet" href="../static/css/music.css">
+<head>
+    <meta charset="UTF-8">
+    <title>歌曲</title>
+</head>
+<body>
+    <div class="father">
+        <div class="music">
+            <a href="\select">重新选择</a>
+            {% if datas %}
+                {% for data in datas %}
+                <p style="text-align:center;">{{data[0]}}-{{data[1]}}</p>
+                <audio controls>
+                        <source src="{{data[2]}}" type="audio/mpeg">
+                </audio>
+                <p>{{data[3]}}</p>
+                {% endfor %}
+                {% else %}
+                <P>暂时没有该歌手或该歌曲</P>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
